@@ -98,23 +98,24 @@ const chartAreaBorder = {
   }
 }
 
-const customePoint = new Image()
-customePoint.src = 'https://ibb.co/zmnqS69';
+const customePoint = new Image(24, 34)
+// customePoint.src = '../images/point.svg';
 
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: [ "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+    labels: ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
     datasets: [{
       label: 'Грудень',
-      data: [ 6.8, 7.3, 11.1, 11.7, 14.3, 16.6, 18.4, 19.3, 23.9, 22.3, 20.2, 23.2, 24.3],
+      data: [6.8, 7.3, 11.1, 11.7, 14.3, 16.6, 18.4, 19.3, 23.9, 22.3, 20.2, 23.2, 24.3],
       borderWidth: 2,
       borderColor: 'white',
-      pointRadius: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+      pointRadius: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
       cubicInterpolationMode: 'monotone',
       fill: true,
       backgroundColor: gradientStroke,
-       pointHitRadius: 20
+      pointHitRadius: 20,
+      pointStyle: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, customePoint],
     }]
   },
   options: {
@@ -155,7 +156,7 @@ new Chart(ctx, {
       },
       legend: {
         display: false,
-            labels: {
+        labels: {
           usePointStyle: true,
         },
       },
@@ -172,7 +173,7 @@ new Chart(ctx, {
 
       },
       y: {
-         offset: true,
+        offset: true,
         aspectRatio: 1,
         min: 0,
         grid: {

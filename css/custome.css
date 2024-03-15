@@ -28,14 +28,14 @@ section::after {
 }
 
 section::before {
-  background-image: url(../images/flowers-top.png);
-  background-position-y: -300px;
+  background-image: url(../images/flowers-top.svg);
+  background-position-y: -60px;
 }
 
 section::after {
-  background-image: url(../images/flowers-bottom.png);
+  background-image: url(../images/flowers-bottom.svg);
   background-position: bottom;
-  background-position-y: 540px;
+  background-position-y: 450px;
 }
 
 section.animate::before,
@@ -44,11 +44,11 @@ section.animate::after {
 }
 
 section.animate::before {
-  background-position-y: -260px;
+  background-position-y: -10px;
 }
 
 section.animate::after {
-  background-position-y: 500px;
+  background-position-y: 390px;
 }
 
 .overlay {
