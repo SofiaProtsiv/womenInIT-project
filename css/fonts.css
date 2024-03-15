@@ -1,0 +1,65 @@
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/montserrat/Montserrat-ExtraLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/montserrat/Montserrat-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/montserrat/Montserrat-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Unbounded */
+@font-face {
+  font-family: 'Unbounded';
+  src: url('../assets/fonts/unbounded/Unbounded-ExtraLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url('../assets/fonts/unbounded/Unbounded-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url('../assets/fonts/unbounded/Unbounded-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Machérie */
+@font-face {
+  font-family: 'Machérie';
+  src: url('../assets/fonts/machérie/Macherie.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}

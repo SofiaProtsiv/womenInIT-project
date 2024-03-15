@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Women in IT</title>
+
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <section>
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="logos__container">
+        <img src="images/company-logo.svg" alt="company logo" data-animatedFadeInUp />
+        <img src="images/event-logo.svg" alt="event logo" data-animatedFadeInDown />
+      </div>
+      <div class="info__container">
+        <div data-animatedFadeInUp>
+          <h1>
+            Статистика про <span>жінок в українському IT</span>
+          </h1>
+          <ul>
+            <li>
+              <h3 data-number="71800">~71 800</h3>
+              <p>жінок <span>вже працюють</span> в українському IT</p>
+            </li>
+            <li>
+              <h3 data-number="44">44%</h3>
+              <p>з них працюють <br /><span>y технічних напрямах</span> розробки та тестування</p>
+            </li>
+          </ul>
+
+        </div>
+        <div class="chart__container" data-animatedFadeInDown>
+          <canvas id="chart" width="600" height="260"></canvas>
+          <p>Частка <span>жінок</span> в українському IT</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/bg-animation.js"></script>
+  <script src="js/numbers-animation.js"></script>
+  <script src="js/graphics-animation.js"></script>
+</body>
+
+</html>
